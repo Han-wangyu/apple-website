@@ -10,7 +10,7 @@ import Footer from './components/Footer'
 
 function App() {
   return (
-    <main className="bg-black">
+    <main className="bg-black overflow-y-auto">
       <Navbar />
       <Hero />
       <Hightlights />
