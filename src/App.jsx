@@ -5,6 +5,7 @@ import Hightlights from './components/Hightlights'
 
 import * as Sentry from '@sentry/react'
 import Features from './components/Features'
+import HowItWorks from './components/HowItWorks'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Hightlights />
       <Model />
       <Features />
+      <HowItWorks />
     </main>
   )
 }
